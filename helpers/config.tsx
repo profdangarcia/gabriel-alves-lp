@@ -2,7 +2,7 @@ import { ImBarcode, ImQrcode, ImCreditCard } from 'react-icons/im';
 import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 
 const config = {
-  brand: 'MKT Landing Page',
+  brand: 'Team Alves',
   seo: {
     title: 'Gabriel Alves | Treinamento Especializado',
     description: 'Treinamento e acompanhamento especializado!',
