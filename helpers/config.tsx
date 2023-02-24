@@ -1,19 +1,19 @@
 import { ImBarcode, ImQrcode, ImCreditCard } from 'react-icons/im';
-import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
+import { FaTiktok, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const config = {
   brand: 'Team Alves',
   seo: {
     title: 'Gabriel Alves | Treinamento Especializado',
-    description: 'Treinamento e acompanhamento especializado!',
+    description: 'Adquira agora o treinamento especializado para você!',
     h1: 'Treinamento especializado para você',
     thumbnail: 'https://gabriel-alves-lp.vercel.app/thumbnail.jpeg',
   },
   cta: {
     videoId: 'TrhmjR5xTc8',
-    videoCta: 'Veja o vídeo de nossa solução',
-    videoTitle: 'Nossa solução',
-    videoCtaClick: 'Adquira agora nossa solução:',
+    videoCta: 'Veja o vídeo de apresentação',
+    videoTitle: 'Treinamento Online',
+    videoCtaClick: 'Adquira agora seu treinamento:',
     videoCtaButton: 'QUERO COMEÇAR!',
     checkoutUrl: 'https://sun.eduzz.com/1610504',
     ctaButton: 'QUERO APROVEITAR!',
@@ -68,24 +68,24 @@ const config = {
   },
   socials: [
     {
-      name: 'Facebook',
-      icon: <BsFacebook />,
-      url: '#',
-    },
-    {
       name: 'Instagram',
-      icon: <BsInstagram />,
-      url: '#',
+      icon: <FaInstagram />,
+      url: 'https://www.instagram.com/gabriels_alves/',
     },
     {
-      name: 'Whatsapp',
-      icon: <BsWhatsapp />,
-      url: '#',
+      name: 'Tiktok',
+      icon: <FaTiktok />,
+      url: 'https://www.tiktok.com/@gabrielalvespersonalon',
+    },
+    {
+      name: 'Youtube',
+      icon: <FaYoutube />,
+      url: 'https://www.youtube.com/channel/UCFQHTOcC_87ft9WNBj5QOyA',
     },
   ],
   whatsapp: {
-    number: '999999999',
-    message: 'Olá, vi seu trabalho pelo site MKT Landing Page!',
+    number: '35998489608',
+    message: 'Olá, vi seu trabalho pelo site e gostaria de saber mais.',
   },
 };
 
