@@ -4,18 +4,18 @@ import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 const config = {
   brand: 'MKT Landing Page',
   seo: {
-    title: 'MKT Landing Page | CTA Helper',
-    description: 'Uma página para divulgação de produtos',
-    h1: 'MKT Landing Page',
-    thumbnail: 'https://mkt-landing-page-livid.vercel.app/thumbnail.jpg',
+    title: 'Gabriel Alves | Treinamento Especializado',
+    description: 'Treinamento e acompanhamento especializado!',
+    h1: 'Treinamento especializado para você',
+    thumbnail: 'https://mkt-landing-page-livid.vercel.app/thumbnail.jpeg',
   },
   cta: {
-    videoId: '9w3o9NHXqu0',
+    videoId: 'TrhmjR5xTc8',
     videoCta: 'Veja o vídeo de nossa solução',
     videoTitle: 'Nossa solução',
     videoCtaClick: 'Adquira agora nossa solução:',
     videoCtaButton: 'QUERO COMEÇAR!',
-    checkoutUrl: 'https://www.google.com',
+    checkoutUrl: 'https://sun.eduzz.com/1610504',
     ctaButton: 'QUERO APROVEITAR!',
   },
   results: {
@@ -50,8 +50,8 @@ const config = {
     },
   ],
   about: {
-    image: '/about.png',
-    title: 'SOBRE NÓS',
+    image: '/about.jpeg',
+    title: 'QUEM SOU EU',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
   },
