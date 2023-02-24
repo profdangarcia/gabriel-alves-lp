@@ -7,7 +7,7 @@ const config = {
     title: 'Gabriel Alves | Treinamento Especializado',
     description: 'Treinamento e acompanhamento especializado!',
     h1: 'Treinamento especializado para você',
-    thumbnail: 'https://mkt-landing-page-livid.vercel.app/thumbnail.jpeg',
+    thumbnail: 'https://gabriel-alves-lp.vercel.app/thumbnail.jpeg',
   },
   cta: {
     videoId: 'TrhmjR5xTc8',
