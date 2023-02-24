@@ -31,10 +31,12 @@ const About: React.FC = () => {
             w={{ base: '100%', md: '50%' }}
             direction="column"
             textAlign={{ base: 'center', md: 'right' }}
-            gap={8}
+            gap={4}
           >
-            <Heading>{about.title}</Heading>
-            <Text>{about.description}</Text>
+            <Heading mb={4}>{about.title}</Heading>
+            {about.description.map(text => (
+              <Text key={text}>{text}</Text>
+            ))}
           </Flex>
         </Flex>
       </Wrapper>
