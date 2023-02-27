@@ -33,7 +33,9 @@ const About: React.FC = () => {
             textAlign={{ base: 'center', md: 'right' }}
             gap={4}
           >
-            <Heading mb={4}>{about.title}</Heading>
+            <Heading mb={4} color="brand.800">
+              {about.title}
+            </Heading>
             {about.description.map(text => (
               <Text key={text}>{text}</Text>
             ))}
