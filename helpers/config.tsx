@@ -18,24 +18,20 @@ const config = {
     checkoutUrl: 'https://sun.eduzz.com/1610504',
     ctaButton: 'QUERO APROVEITAR!',
   },
-  results: {
-    title: 'Métodos que dão resultados como esses:',
+  presentation: {
+    title: 'O que você irá receber:',
     items: [
       {
         info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-        image: '/results/result1.jpeg',
+        image: '/presentations/presentation1.png',
       },
       {
         info: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
-        image: '/results/result2.jpeg',
+        image: '/presentations/presentation2.png',
       },
       {
         info: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        image: '/results/result3.jpeg',
-      },
-      {
-        info: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        image: '/results/result4.jpeg',
+        image: '/presentations/presentation3.png',
       },
     ],
   },
@@ -175,6 +171,31 @@ const config = {
     image: '/guarantee.png',
     message:
       'O RISCO É TODO MEU: Se você cumprir todo o passo a passo que eu proponho no programa e ainda assim não vir resultados em até 03 meses, eu devolvo cada centavo do seu dinheiro!',
+  },
+  testimonial: {
+    title: 'VEJA NOSSOS RESULTADOS',
+    items: [
+      {
+        image: '/testimonials/result1.jpeg',
+        text: '',
+        title: 'Testimonial 1',
+      },
+      {
+        image: '/testimonials/result2.jpeg',
+        text: '',
+        title: 'Testimonial 2',
+      },
+      {
+        image: '/testimonials/result3.jpeg',
+        text: '',
+        title: 'Testimonial 3',
+      },
+      {
+        image: '/testimonials/result4.jpeg',
+        text: '',
+        title: 'Testimonial 4',
+      },
+    ],
   },
 };
 
