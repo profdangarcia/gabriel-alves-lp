@@ -22,16 +22,19 @@ const config = {
     title: 'O que você irá receber:',
     items: [
       {
-        info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-        image: '/presentations/presentation1.png',
+        title: 'Suporte via whatsapp',
+        info: 'Com o nosso plano, você terá um personal trainer dedicado que irá guiá-lo em sua jornada de fitness e saúde. Além disso, você poderá contar com o suporte via WhatsApp para receber orientação, esclarecer dúvidas e receber feedbacks instantâneos.',
+        image: '/presentations/presentation1.webp',
       },
       {
-        info: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+        title: 'App de treino com vídeos',
+        info: 'Você terá acesso a um app de treinos com vídeos exclusivos! Agora você pode ter um personal trainer virtual em seu bolso e fazer seus treinos onde quer que esteja.',
         image: '/presentations/presentation2.png',
       },
       {
-        info: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        image: '/presentations/presentation3.png',
+        title: 'Treino específico com avaliação corporal online',
+        info: 'Você receberá um plano de treinos específico para seus objetivos, além de uma avaliação corporal online. O plano de treinos será personalizado de acordo com suas necessidades, objetivos e limitações, e a avaliação corporal ajudará a entender melhor seu corpo e suas necessidades.',
+        image: '/presentations/presentation3.jpg',
       },
     ],
   },
