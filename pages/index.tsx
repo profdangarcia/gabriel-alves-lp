@@ -34,8 +34,8 @@ const Home: React.FC = () => {
         </Flex>
       </Wrapper>
       <PresentationSection />
-      <CtaSection />
       <TestimonialSection />
+      <CtaSection />
       <SatisfactionSection />
       <PlanSection />
       <About />
