@@ -35,10 +35,10 @@ const Home: React.FC = () => {
       </Wrapper>
       <PresentationSection />
       <CtaSection />
-      <About />
-      <PlanSection />
-      <SatisfactionSection />
       <TestimonialSection />
+      <SatisfactionSection />
+      <PlanSection />
+      <About />
       <CtaSection />
       <Footer />
       <FloatingWhatsapp />
