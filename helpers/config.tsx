@@ -54,7 +54,7 @@ const config = {
     },
   ],
   about: {
-    image: '/about.jpeg',
+    image: '/self.jpeg',
     title: 'QUEM SOU EU',
     description: [
       'Olá! Meu nome é Gabriel Alves e sou Personal Trainer Profissional de educação física, formado pela UNISEP, especialista em Ciência do Treinamento de Força (UFScar), diversos cursos na área do emagrecimento e hipertrofia muscular, professor em sala de musculação há mais de 8 ano.',
@@ -182,22 +182,42 @@ const config = {
       {
         image: '/testimonials/result1.jpeg',
         text: '',
-        title: 'Testimonial 1',
+        title: 'Resultado dos treinos',
+      },
+      {
+        image: '/testimonials/review1.jpeg',
+        text: '',
+        title: 'Feedback de cliente',
       },
       {
         image: '/testimonials/result2.jpeg',
         text: '',
-        title: 'Testimonial 2',
+        title: 'Resultado dos treinos',
+      },
+      {
+        image: '/testimonials/review2.jpeg',
+        text: '',
+        title: 'Feedback de cliente',
       },
       {
         image: '/testimonials/result3.jpeg',
         text: '',
-        title: 'Testimonial 3',
+        title: 'Resultado dos treinos',
+      },
+      {
+        image: '/testimonials/review3.jpeg',
+        text: '',
+        title: 'Feedback de cliente',
       },
       {
         image: '/testimonials/result4.jpeg',
         text: '',
-        title: 'Testimonial 4',
+        title: 'Resultado dos treinos',
+      },
+      {
+        image: '/testimonials/review4.jpeg',
+        text: '',
+        title: 'Feedback de cliente',
       },
     ],
   },

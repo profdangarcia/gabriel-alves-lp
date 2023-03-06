@@ -27,6 +27,7 @@ const TestimonialSection: React.FC = () => {
                     justify="center"
                     align="center"
                     gap={4}
+                    minH="18.875rem"
                   >
                     <Box position="relative">
                       <Image
