@@ -7,7 +7,8 @@ const config = {
     title: 'Gabriel Alves | Treinamento Especializado',
     description: 'Adquira agora o treinamento especializado para você!',
     h1: 'Treinamento especializado para você',
-    thumbnail: 'https://gabriel-alves-lp.vercel.app/thumbnail.jpeg',
+    thumbnail: 'thumbnail.jpeg',
+    canonical: 'https://gabriel-alves-lp.vercel.app/',
   },
   cta: {
     videoId: 'TrhmjR5xTc8',
@@ -76,17 +77,17 @@ const config = {
   },
   socials: [
     {
-      name: 'Instagram',
+      name: 'Visite meu instagram',
       icon: <FaInstagram />,
       url: 'https://www.instagram.com/gabriels_alves/',
     },
     {
-      name: 'Tiktok',
+      name: 'Visite meu Tiktok',
       icon: <FaTiktok />,
       url: 'https://www.tiktok.com/@gabrielalvespersonalon',
     },
     {
-      name: 'Youtube',
+      name: 'Visite meu canal do Youtube',
       icon: <FaYoutube />,
       url: 'https://www.youtube.com/channel/UCFQHTOcC_87ft9WNBj5QOyA',
     },
