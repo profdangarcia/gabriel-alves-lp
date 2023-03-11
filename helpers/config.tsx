@@ -177,7 +177,7 @@ const config = {
       'O RISCO É TODO MEU: Se você cumprir todo o passo a passo que eu proponho no programa e ainda assim não vir resultados em até 03 meses, eu devolvo cada centavo do seu dinheiro!',
   },
   testimonial: {
-    title: 'VEJA NOSSOS RESULTADOS',
+    title: 'RESULTADOS E FEEDBACKS',
     items: [
       {
         image: '/testimonials/result1.jpeg',
@@ -185,7 +185,7 @@ const config = {
         title: 'Resultado dos treinos',
       },
       {
-        image: '/testimonials/review1.jpeg',
+        image: '/testimonials/feedback1.jpeg',
         text: '',
         title: 'Feedback de cliente',
       },
@@ -195,7 +195,7 @@ const config = {
         title: 'Resultado dos treinos',
       },
       {
-        image: '/testimonials/review2.jpeg',
+        image: '/testimonials/feedback2.jpeg',
         text: '',
         title: 'Feedback de cliente',
       },
@@ -205,7 +205,7 @@ const config = {
         title: 'Resultado dos treinos',
       },
       {
-        image: '/testimonials/review3.jpeg',
+        image: '/testimonials/feedback3.jpeg',
         text: '',
         title: 'Feedback de cliente',
       },
@@ -215,7 +215,12 @@ const config = {
         title: 'Resultado dos treinos',
       },
       {
-        image: '/testimonials/review4.jpeg',
+        image: '/testimonials/feedback4.jpeg',
+        text: '',
+        title: 'Feedback de cliente',
+      },
+      {
+        image: '/testimonials/feedback5.jpeg',
         text: '',
         title: 'Feedback de cliente',
       },
