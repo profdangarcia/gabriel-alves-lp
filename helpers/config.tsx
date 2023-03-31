@@ -185,7 +185,7 @@ const config = {
         title: 'Resultado dos treinos',
       },
       {
-        image: '/testimonials/feedback44.jpeg',
+        image: '/testimonials/feedback45.jpeg',
         text: '',
         title: 'Feedback de cliente',
       },
