@@ -231,6 +231,135 @@ const config = {
       },
     ],
   },
+  questions: {
+    intro: {
+      question: 'Qual seu gênero?',
+      options: [
+        {
+          id: 'masculino',
+          text: 'Masculino',
+        },
+        {
+          id: 'feminino',
+          text: 'Feminino',
+        },
+      ],
+    },
+    masculino: [
+      {
+        question: 'Qual é o seu principal objetivo estético?',
+        options: [
+          {
+            id: 'tonificar',
+            text: 'Alcançar um abdômen definido e um corpo tonificado.',
+          },
+          {
+            id: 'diminuir',
+            text: 'Emagrecer e conquistar definição.',
+          },
+          {
+            id: 'aumentar',
+            text: 'Quero construir músculos, ganhar massa magra.',
+          },
+        ],
+      },
+      {
+        question: 'Qual é o seu tipo físico atual?',
+        options: [
+          {
+            id: 'ecto',
+            text: 'Ectomorfo (magro e dificuldade de ganhar músculos).',
+          },
+          {
+            id: 'meso',
+            text: 'Mesomorfo (musculoso e facilidade de ganhar músculos).',
+          },
+          {
+            id: 'endo',
+            text: 'Endomorfo (propenso a ganhar peso e gordura).',
+          },
+        ],
+      },
+      {
+        question: 'Qual é o seu nível de atividade física atual?',
+        options: [
+          {
+            id: 'sedentario',
+            text: 'Sedentário (pouca ou nenhuma atividade física regular).',
+          },
+          {
+            id: 'moderado',
+            text: 'Moderado (exercícios leves algumas vezes por semana).',
+          },
+          {
+            id: 'ativo',
+            text: 'Ativo (exercícios regulares 3-4 vezes por semana).',
+          },
+          {
+            id: 'mtoAtivo',
+            text: 'Muito Ativo (exercícios intensos várias vezes por semana).',
+          },
+        ],
+      },
+    ],
+    feminino: [
+      {
+        question: 'Qual é o seu principal objetivo estético?',
+        options: [
+          {
+            id: 'tonificar',
+            text: 'Reduzir celulite nas coxas e tonificar pernas e glúteos.',
+          },
+          {
+            id: 'diminuir',
+            text: 'Alcançar um abdômen definido e glúteos firmes.',
+          },
+          {
+            id: 'aumentar',
+            text: 'Definir os músculos das pernas e reduzir a gordura localizada.',
+          },
+        ],
+      },
+      {
+        question: 'Qual é o seu tipo físico atual?',
+        options: [
+          {
+            id: 'ecto',
+            text: 'Ectomorfo (magro e dificuldade de ganhar músculos).',
+          },
+          {
+            id: 'meso',
+            text: 'Mesomorfo (musculoso e facilidade de ganhar músculos).',
+          },
+          {
+            id: 'endo',
+            text: 'Endomorfo (propenso a ganhar peso e gordura).',
+          },
+        ],
+      },
+      {
+        question: 'Qual é o seu nível de atividade física atual?',
+        options: [
+          {
+            id: 'sedentario',
+            text: 'Sedentário (pouca ou nenhuma atividade física regular).',
+          },
+          {
+            id: 'moderado',
+            text: 'Moderado (exercícios leves algumas vezes por semana).',
+          },
+          {
+            id: 'ativo',
+            text: 'Ativo (exercícios regulares 3-4 vezes por semana).',
+          },
+          {
+            id: 'mtoAtivo',
+            text: 'Muito Ativo (exercícios intensos várias vezes por semana).',
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default config;
