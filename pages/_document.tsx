@@ -13,7 +13,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/favicon.ico" />
-          <meta name="google-site-verification" content="hyVDovsqxQpSLvMzLawu_CkTM5siBtxl1Y6RrNhxpY8" />
+          <meta 
+            name="google-site-verification" 
+            content="hyVDovsqxQpSLvMzLawu_CkTM5siBtxl1Y6RrNhxpY8" 
+          />
         </Head>
         <body>
           <Main />
